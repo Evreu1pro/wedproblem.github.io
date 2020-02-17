@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    #hei {
+    height: 100vh; 
+}
+        .had {
+            padding: 30px;
+            display: flex;
+            cursor: default;
+            text-decoration: none;
+            z-index: 10001;
+    height: 48px;
+        }
+        .nor {
+            padding: 10px;
+            display: inline-block;
+            background-color: white;
+            transition: background-color 1s linear;
+            cursor: default;
+            text-decoration: none;
+        }
+
+        .nor:hover {
+            background-color: orange;
+            cursor: default;
+            text-decoration: none;
+        }
+
+        .not:hover {
+            background-color: orange;
+            cursor: default;
+            text-decoration: none;
+        }
+
+        .li {
+            display: inline-block;
+        }
+
+        .conttext {
+            margin-top: 15px;
+        }
+
+        .Description {
+            font-size: 14px;
+            font-family: "RobotoSlab";
+            color: rgb( 119, 119, 119);
+            text-align: center;
+            left: 233px;
+            top: 465px;
+            width: 274px;
+            height: 57px;
+            z-index: 36;
+            margin: 0 auto;
+            padding: 15px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .p {
+            width: 230px;
+            height: 210px;
+            background-color: white;
+            transition: background-color 1s linear;
+            display: inline-block;
+            top: 0em;
+            float: left;
+            padding: 25px 25px;
+            margin-top: 80px;
+            margin-left: 200px;
+            color: black;
+            flex: 0 0 32%;
+   background-color: white;
+   padding: 15px;
+   cursor: pointer;
+   transition-duration: .5s;
+   transition-property: background-color, color, border-color, border-radius;
+   transition-timing-function: ease-in, ease-in-out, cubic-bezier(1, -0.01, 0, 1.01), 
+         cubic-bezier(.65, -0.45, .65, 1.47);
+        }
+    .p:hover{
+        border-color: #fff; 
+   background-color: black;
+   color: #fff;
+   border-radius: 20px;
+   box-shadow: 0 0 6px 2px rgba(1, 20, 82, 0.7);
+   -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: background-color 1s linear;
+    }
+
+        .text {
+            width: 230px;
+            height: 210px;
+            background-color: white;
+            transition: background-color 1s linear;
+            display: inline-block;
+            top: 0em;
+            padding: 15px 25px;
+            margin-top: 80px;
+            margin-right: 150px;
+            cursor: pointer;
+   transition-duration: .5s;
+   transition-property: background-color, color, border-color, border-radius;
+   transition-timing-function: ease-in, ease-in-out, cubic-bezier(1, -0.01, 0, 1.01), 
+         cubic-bezier(.85, -0.45, .65, 1.47);
+        }
+        .text:hover{
+            border-color: #fff; 
+   background-color: black;
+   color: #fff;
+   border-radius: 20px;
+   box-shadow: 0 0 6px 2px rgba(1, 20, 82, 0.7);   
+   -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: background-color 1s linear; 
+
+        }
+
+        .tex {
+            width: 230px;
+            height: 210px;
+            background-color: white;
+            transition: background-color 1s linear;
+            display: inline-block;
+            top: 0em;
+            float: left;
+            padding: 24px 15px;
+            margin-top: 80px;
+            background-color: white;
+   padding: 15px;
+   cursor: pointer;
+   
+   transition-duration: .5s;
+   transition-property: background-color, color, border-color, border-radius;
+   transition-timing-function: ease-in, ease-in-out, cubic-bezier(1, -0.01, 0, 1.01), 
+         cubic-bezier(.65, -0.45, .65, 1.47);
+            }
+            .tex:hover{
+                border-color: #fff; 
+   background-color: black;
+   color: #fff;
+   border-radius: 20px;
+   box-shadow: 0 0 6px 2px rgba(1, 20, 82, 0.7);   
+   -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: background-color 1s linear;
+            }
+
+        .cont2 {
+            background-image: url(https://img5.goodfon.ru/wallpaper/nbig/b/59/karta-mira-chernyi-fon-materiki-kontinenty.jpg) ;
+            margin-top: 60px;
+        }
+
+        .ger {
+            width: 230px;
+            height: 210px;
+            transition: background-color 1s linear;
+            display: inline-block;
+            margin-top: 10px;
+            margin-left: 45%;
+        }
+
+        .ger:hover {
+            background-color: blue;
+        }
+        img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: background-color 1s linear;
+}
+.h1{
+    color: aliceblue;
+}
+.h3{
+    color: aliceblue;
+   }
+   .anketa{
+       margin-left: 230px;
+       width: 145px;
+       margin-top: 35px;
+       display: inline;
+       margin-left: 27%;
+       margin-top: 19%;
+
+   }
+   .get{
+    width: 500px;
+            height: 180px;
+            transition: background-color 1.25s linear;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 45%;
+            
+   }
+   .get:hover {
+            background-color:#2E2E2E;
+            border-radius: 45px;
+           
+        }
+        .content1{
+            margin-top: 70PX;
+        }
+        a {
+  text-decoration:none;
+  background: white;
+  transition: background-color 1s linear;
+  padding: 5px;
+}
+a:hover{
+    font-size: 125%;
+    color: navy;
+}
+.me{
+
+            padding: 15px;
+            display: inline-block;
+            text-decoration: none;
+            cursor: default;
+            text-decoration: none;
+
+}
+.da{
+padding: 20px;
+}
+.do{
+    margin-top: 15px;
+}
+.form{
+    margin-left: 5%;
+}
+.contmenu{
+    padding: 10px;
+            display: inline-block;
+            text-decoration: none;
+            cursor: default;
+            text-decoration: none;
+            margin-left: 60%;
+            color: black;
+            transition: background-color 1.25s linear;
+}
+.cwd{text-align:center;}
+.cwda{cursor: pointer; font-size:17px;  text-decoration: none; padding:11px 45px; color:#ffffff; background-color:#f7a500; border-radius:0px; border: 3px solid #f7a500;}
+.cwda:hover{background-color:orange;color:white;}
+.font{
+    font-family: 'Lemonada', cursive;
+}
+.font2{
+    font-family: 'Shadows Into Light', cursive;
+}
+.font3{
+    font-family: 'Acme', sans-serif;
+}
+.menufont{
+    font-family: 'Righteous', cursive;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="had">
+        <h2 class="me">golden</h2>
+        <div class="contmenu">
+                        <a class="menufont" style="color: black;" class="TEXT" href="#">homer</a>
+                        <a class="menufont" style="color: black;" class="TEXT" href="#">services</a>
+                      <a class="menufont" style="color: black;" class="TEXT" href="#">portfolio</a>
+                        <A class="menufont"  style="color: black;" style="" class="TEXT" href="#">about</A>
+                        <a class="menufont" style="color: black;" class="TEXT" href="#">contact</a>
+        </div>
+    </div>
+
+    <div class="content1">
+        <div class="Description">
+            <center>
+
+                <h1 class="font3">
+                    <p>services</p>
+                </h1>
+                <p class="font"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, amet!</p>
+            </center>
+        </div>
+        <div class="p">
+            <center>
+                <div class="img"><div class="d1"><img  src="img/photo_2020-02-09_13-09-01.jpg"></div>
+                
+               <p class="font3">Responsive Web</p>
+                 <div class="font2">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</div>
+        </center>
+        </div>
+</div>
+    </div>
+    </div>
+
+    <div class="tex">
+        <center>
+            <div class="img"><img src="img/photo_2020-02-09_13-08-59.jpg"></div>
+            <p class="font3">E-Commerce Proin</p>
+            <div class="font2"> iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</div>
+    </center>
+</div>
+    </div>
+    </div>
+
+    <div class="text">
+        <center>
+            <div class="img"><img class="img" src="img/photo_2020-02-09_13-08-57.jpg"></div>
+            <p class="font3">Web Security</p>
+           <div class="font2"> Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</div>
+    </center>
+</div>
+</div>
+    </div>
+    </div>
+    <div class="cont2">
+        <div class="get">
+            <center>
+                <p>
+                    <h1 class="font3" style="color: beige;">content us</h1>
+                </p>
+                <h3 class="font2" style="color: beige;">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</div>
+                </center>
+        <div class="form">
+            <div class="da">
+            </div>
+    <p><input type="email" size="40" placeholder="Email" maxlength="10" style="myInput"></p>
+        <p><input type="text" size="40" placeholder="Username"></p>
+       <p><input type="text" size="40" placeholder="Username">
+            <div class="anketa"><textarea placeholder="Сообщение..." rows="10" size="40"></textarea>
+       
+    
+    <p class="cwd"><a href="#" target="_self" class="cwda" class="do" title="send message">send message</a></p>
+</div>
+</div> </div>
+</body>
+
+</html>
